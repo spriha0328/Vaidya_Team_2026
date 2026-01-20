@@ -8,9 +8,8 @@
 
 ---
 
-## 🏆 Hackathon Evaluation Criteria
 
-### 1. 🛠 Google Technology (Complete Suite)
+### 1. 🛠 Google Technology
 *   **Gemini 2.5 Flash**: Utilizing the latest model for high-speed, multimodal reasoning.
 *   **Google Search Grounding**: The AI connects to the live web to verify drug interactions and fetch up-to-date medical protocols (e.g., CDC guidelines), replacing hallucination with citation.
 *   **Google Maps Grounding**: Integrates real-time location data to find actual clinics and specialists near the user, providing direct map links.
