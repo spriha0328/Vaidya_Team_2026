@@ -1,0 +1,5 @@
+{
+  "name": "PriMed AI - Solace Hub",
+  "description": "A secure, intelligent medical triage assistant using Google Gemini with specialized medical tools and privacy-first architecture.",
+  "requestFramePermissions": []
+}

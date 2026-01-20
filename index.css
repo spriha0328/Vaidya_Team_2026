@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* Body Text */
+    background-color: #F7F5F3;
+    /* Preserved Warm Off-White */
+    color: #383838;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+/* Headings - Outfit */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -0.02em;
+    color: #1a1a1a;
+}
+
+/* AI Message Content - Body Text */
+.prose,
+.markdown-body,
+.ai-text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* Changed from Serif to Body font */
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #2D2D2D;
+}
+
+/* UI Elements - Buttons, Sidebar */
+.font-sans,
+button,
+input,
+textarea,
+.ui-element {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+/* User Message Bubble - Pill shape, warm beige */
+.user-bubble {
+    background-color: #EBE9E4 !important;
+    color: #1A1A1A !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    border-radius: 12px;
+}
+
+/* AI Message Bubble - Transparent/Clean */
+.ai-bubble {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding-left: 0 !important;
+}
+
+/* Input Area - Clean Card */
+.input-area {
+    background: white;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.glass-panel {
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02) !important;
+}
